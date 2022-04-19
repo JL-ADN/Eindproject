@@ -71,8 +71,10 @@ nav ul li a:hover {
     color:
         lightseagreen;
 }
-img{
+
+img.Schilderijbleu {
     display: flex;
+    justify-content: center;
     height: 300px;
     width: 300px;
 }
