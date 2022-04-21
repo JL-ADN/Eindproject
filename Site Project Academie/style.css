@@ -9,7 +9,7 @@ header {
     top: 0;
     right: 0;
     left: 0;
-    border-bottom: 5px solid black;
+    border-bottom: 3px solid black;
     background-color: white;
 }
 
@@ -20,7 +20,7 @@ header {
     padding: 0.5em;
     text-decoration: none;
     color: black;
-    border-right: 2px solid black;
+    border-right: 3px solid black;
     transition: .4s all;
 }
 
@@ -49,8 +49,8 @@ nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.2em;
-    padding-bottom: 1.4em;
-    transition: .4s color;
+    padding-bottom: 0.4em;
+    transition: .3s color;
 }
 
 nav ul li a:hover {
@@ -72,9 +72,8 @@ nav ul li a:hover {
         lightseagreen;
 }
 
-img.Schilderijbleu {
+img.foto {
     display: flex;
-    justify-content: center;
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 600px;
 }
