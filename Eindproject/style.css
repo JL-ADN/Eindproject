@@ -21,7 +21,7 @@ header {
 img {
     width: 500px;
     position: relative;
-    left: 10px;
+    top: -150px;
     border-radius: 10px;
 }
 
