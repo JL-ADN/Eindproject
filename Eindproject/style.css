@@ -1,18 +1,6 @@
 body {
     background-color: lightslategray;
-}
-
-h1 {
-    display: flex;
-    text-align: center;
-}
-
-h2 {
-    text-align: left;
-}
-
-body {
-    font-family: "Lato", sans-serif;
+    font-family: "Arial", sans-serif;
 }
 
 .sidebar {
@@ -67,7 +55,6 @@ body {
     padding: 16px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
     .sidebar {
         padding-top: 15px;
