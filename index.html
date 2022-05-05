@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EinpProject[Adrien]</title>
+    <title>EindProject[Adrien]</title>
     <link rel="stylesheet" href="Eindproject/style.css">
     <script src="Eindproject/script.js" defer></script>
 </head>
 
 <body>
     <header>
-        SOV Jans Portaels
+        <div class="logo">
+            <img src="LooJnps.png" alt="logo" />
+        </div>
     </header>
 
     <div id="main">
@@ -28,97 +30,159 @@
         <a href="Eindproject/schrijf-in.html">Schrijf in</a>
         <a href="Eindproject/goedomteweten.html">Goed om te weten</a>
     </div>
+    <div>
+        <div class="carousel">
+            <ul class="slides">
+                <input type="radio" name="radio-buttons" id="img-1" checked />
+                <li class="slide-container">
+
+                    <div class="slide-image">
+                        <img src="Dessinnvx.png">
+                    </div>
+
+                    <div class="carousel-controls">
+                        <label for="img-3" class="prev-slide">
+                            <span>&lsaquo;</span>
+                        </label>
+
+                        <label for="img-2" class="next-slide">
+                            <span>&rsaquo;</span>
+                        </label>
+                    </div>
+
+                </li>
+                <input type="radio" name="radio-buttons" id="img-2" />
+                <li class="slide-container">
+                    <div class="slide-image">
+                        <img src="Creation.png">
+                    </div>
+
+                    <div class="carousel-controls">
+                        <label for="img-1" class="prev-slide">
+                            <span>&lsaquo;</span>
+                        </label>
+
+                        <label for="img-3" class="next-slide">
+                            <span>&rsaquo;</span>
+                        </label>
+                    </div>
+
+                </li>
+                <input type="radio" name="radio-buttons" id="img-3" />
+                <li class="slide-container">
+                    <div class="slide-image">
+                        <img src="woman.png">
+                    </div>
+
+                    <div class="carousel-controls">
+                        <label for="img-2" class="prev-slide">
+                            <span>&lsaquo;</span>
+                        </label>
+
+                        <label for="img-1" class="next-slide">
+                            <span>&rsaquo;</span>
+                        </label>
+                    </div>
+                </li>
+
+                <div class="carousel-dots">
+                    <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                    <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                    <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+                </div>
+            </ul>
+        </div>
+    </div>
+
     <footer class="footer">
         <div class="footer__addr">
             <h1 class="footer__logo">SOV Jan Portaels</h1>
-    
+
             <h2>Contact</h2>
-    
+
             <address>
                 Spiegelstraat 62 1800 Vilvoorde<br>
-    
-                <a class="footer__btn" href="directie.academiebeeldendekunsten@sovilvoorde.be">E-mail directie</a>
+
+                <a class="footer__btn" href="directie.academiebeeldendekunsten@sovilvoorde.be">Directie</a>
             </address>
         </div>
-    
+
         <ul class="footer__nav">
             <li class="nav__item">
                 <h2 class="nav__title">Media</h2>
-    
+
                 <ul class="nav__ul">
                     <li>
                         <a href="#">Online</a>
                     </li>
-    
+
                     <li>
                         <a href="#">Print</a>
                     </li>
-    
+
                     <li>
                         <a href="#">Alternative Ads</a>
                     </li>
                 </ul>
             </li>
-    
+
             <li class="nav__item nav__item--extra">
                 <h2 class="nav__title">Technology</h2>
-    
+
                 <ul class="nav__ul nav__ul--extra">
                     <li>
                         <a href="#">Hardware Design</a>
                     </li>
-    
+
                     <li>
                         <a href="#">Software Design</a>
                     </li>
-    
+
                     <li>
                         <a href="#">Digital Signage</a>
                     </li>
-    
+
                     <li>
                         <a href="#">Automation</a>
                     </li>
-    
+
                     <li>
                         <a href="#">Artificial Intelligence</a>
                     </li>
-    
+
                     <li>
                         <a href="#">IoT</a>
                     </li>
                 </ul>
             </li>
-    
+
             <li class="nav__item">
                 <h2 class="nav__title">Legal</h2>
-    
+
                 <ul class="nav__ul">
                     <li>
                         <a href="#">Privacy Policy</a>
                     </li>
-    
+
                     <li>
                         <a href="#">Terms of Use</a>
                     </li>
-    
+
                     <li>
                         <a href="#">Sitemap</a>
                     </li>
                 </ul>
             </li>
         </ul>
-    
+
         <div class="legal">
             <p>&copy; 2022 Something. All rights reserved.</p>
-    
+
             <div class="legal__links">
                 <span>Made with <span class="heart">♥</span> CVO Brussel</span>
             </div>
         </div>
     </footer>
 </body>
-
-
 
 </html>
