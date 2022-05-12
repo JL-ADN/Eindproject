@@ -26,13 +26,13 @@ header {
 }
 
 body {
-    background: #006E90;
+    background: white;
 }
 
 header {
     position: relative;
     width: 100%;
-    background: #006E90;
+    background: white;
 }
 
 .logo {
@@ -40,13 +40,13 @@ header {
     z-index: 123;
     padding: 10px;
     font: 18px verdana;
-    color: #F18F01;
+    color: lightslategray;
     float: left;
     width: 15%
 }
 
 .logo a {
-    color: #F18F01;
+    color: white;
 }
 
 nav {
@@ -102,7 +102,7 @@ nav {
 }
 
 #cssmenu>ul>li:hover, #cssmenu ul li.active:hover, #cssmenu ul li.active, #cssmenu ul li.has-sub.active:hover {
-    background: #F18F01 !important;
+    background: grey !important;
     -webkit-transition: background .3s ease;
     -ms-transition: background .3s ease;
     transition: background .3s ease;
@@ -425,7 +425,7 @@ nav {
     }
 
     #cssmenu .submenu-button.submenu-opened:after {
-        background: #fff
+        background: #F18F01
     }
 
     #cssmenu .submenu-button:before {
@@ -475,7 +475,7 @@ footer {
     position: fixed;
     bottom: 0;
     box-sizing: border-box;
-    background-color: #006E90;
+    background-color: #363636;
     width: 100%;
     text-align: left;
     font: bold 16px sans-serif;
@@ -500,7 +500,7 @@ footer .article-left h3 {
 }
 
 footer .article-left h3 span {
-    color: #F18F01;
+    color: white;
 }
 
 footer .article-left .footer-links {
