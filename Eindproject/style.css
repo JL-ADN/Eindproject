@@ -26,7 +26,7 @@ body {
 
 .topnav {
     overflow: hidden;
-    background-color: lightslategray;
+    background-color: #006E90;
 }
 
 .topnav a {
@@ -45,16 +45,16 @@ body {
 }
 
 .topnav a.active {
-    background-color: lightslategray;
-    color: lightseagreen;
-    opacity: 20%;
+    background-color: white;
+    color: white;
+    opacity: 15%;
 }
 
 .topnav .icon {
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .topnav a:not(:first-child) {
         display: none;
     }
@@ -65,7 +65,7 @@ body {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .topnav.responsive {
         position: relative;
     }
@@ -92,9 +92,6 @@ body {
 
 
 
-
-
-
 body {
     margin: 0;
     padding: 0;
@@ -104,7 +101,7 @@ footer {
     position: fixed;
     bottom: 0;
     box-sizing: border-box;
-    background-color: lightslategray;
+    background-color: #006E90;
     width: 100%;
     text-align: left;
     font: bold 16px sans-serif;
@@ -125,15 +122,15 @@ footer .article-left {
 }
 
 footer .article-left h3 {
-    color: black;
+    color: white;
 }
 
 footer .article-left h3 span {
-    color: black;
+    color: #F18F01;
 }
 
 footer .article-left .footer-links {
-    color: black;
+    color: white;
     margin: 20px 0 12px;
     padding: 0;
 }
@@ -146,7 +143,7 @@ footer .article-left .footer-links a {
 }
 
 footer .article-left .footer-company-name {
-    color: black;
+    color: white;
     font-size: 14px;
     font-weight: normal;
     margin: 0;
@@ -177,7 +174,7 @@ footer .article-center i.fa-envelope {
 
 footer .article-center p {
     display: inline-block;
-    color: black;
+    color: white;
     vertical-align: middle;
     margin: 0;
 }
@@ -190,7 +187,7 @@ footer .article-center p span {
 }
 
 footer .article-center p a {
-    color: black;
+    color: white;
     text-decoration: none;
     ;
 }
@@ -201,17 +198,17 @@ footer .article-right {
 
 footer .footer-company-about {
     line-height: 20px;
-    color: black;
-    font-size: 13px;
+    color: white;
+    font-size: 15px;
     font-weight: normal;
     margin: 0;
 }
 
 footer .footer-company-about span {
     display: block;
-    color: black;
+    color: white;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: none;
     margin-bottom: 20px;
 }
 
@@ -236,7 +233,7 @@ footer .footer-icons a {
 
 @media (max-width: 880px) {
     footer {
-        font: bold 14px sans-serif;
+        font: bold 10px sans-serif;
     }
 
     footer .article-left,
