@@ -5,18 +5,13 @@ body {
     margin: 0;
 }
 
-* {
-    margin: 2;
-    padding: 2;
-    text-decoration: none
-}
 
 body {
     background: white;
 }
 
 header {
-    position: relative;
+    position: absolute;
     width: 100%;
     background: white;
 }
@@ -465,7 +460,7 @@ footer {
     text-align: left;
     font: bold 19px sans-serif;
     padding: 55px 50px;
-    bottom: -600px;
+    bottom: -900px;
 }
 
 
@@ -737,10 +732,43 @@ footer .footer-icons a {
 }
 
 
-.schilderred{
+.schilderred {
     position: absolute;
     width: 300px;
-    height: 600px;
+    height: 550px;
     top: 50px;
     left: 100px;
+    bottom: 200px;
+}
+
+.rock {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 50px;
+    right: 600px;
+    bottom: 200px;
+}
+
+.Schilder {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    top: 50px;
+    right: 200px;
+    bottom: 200px;
+}
+
+.blueFace {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    top: 50px;
+    left: 400px;
+    bottom: 200px;
+}
+
+.map {
+    position: absolute;
+    top: 740px;
 }
