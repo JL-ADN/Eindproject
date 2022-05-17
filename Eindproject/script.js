@@ -122,4 +122,10 @@ function SlideShow(n) {
   }
   slides[slidePosition - 1].style.display = "block";
   circles[slidePosition - 1].className += " enable";
-} 
+}
+
+
+
+
+
+
