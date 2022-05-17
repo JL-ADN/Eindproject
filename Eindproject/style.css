@@ -772,7 +772,7 @@ footer .footer-icons a {
 
 .map {
     position: absolute;
-    top: 2150px;
+    top: 2000px;
 }
 
 
@@ -787,8 +787,8 @@ table {
     border-spacing: 0;
     width: 100%;
     border: 1px solid black;
-    padding: 15px;
-    margin: 50px;
+    padding: 80px;
+    margin: 1px;
 }
 
 th, td {
