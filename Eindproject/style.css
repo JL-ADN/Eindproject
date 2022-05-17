@@ -460,7 +460,7 @@ footer {
     text-align: left;
     font: bold 19px sans-serif;
     padding: 55px 50px;
-    bottom: -1500px;
+    bottom: -900px;
 }
 
 
@@ -762,9 +762,15 @@ footer .footer-icons a {
     height: 460px;
 }
 
+
+
+
+
+
+
 .map {
     position: absolute;
-    top: 1700px;
+    top: 1650px;
 }
 
 
@@ -772,9 +778,21 @@ footer .footer-icons a {
 
 
 
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid black;
+}
 
+th, td {
+    text-align: left;
+    padding: 8px;
+}
 
-
+tr:nth-child(even) {
+    background-color: lightgrey
+}
 
 
 
@@ -789,7 +807,7 @@ body {
 
 .icon-bar {
     position: absolute;
-    top: 50%;
+    top: 205%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
