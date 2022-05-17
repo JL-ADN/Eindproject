@@ -742,6 +742,8 @@ footer .footer-icons a {
 .alle-fotos {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
@@ -770,12 +772,14 @@ footer .footer-icons a {
 
 .map {
     position: absolute;
-    top: 1855px;
+    top: 2150px;
 }
 
 
-
-
+main {
+    padding: 92px;
+    align-items: center;
+}
 
 
 table {
@@ -783,6 +787,8 @@ table {
     border-spacing: 0;
     width: 100%;
     border: 1px solid black;
+    padding: 15px;
+    margin: 50px;
 }
 
 th, td {
@@ -807,7 +813,7 @@ body {
 
 .icon-bar {
     position: absolute;
-    top: 205%;
+    top: 25%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -819,7 +825,7 @@ body {
     padding: 10px;
     transition: all 0.3s ease;
     color: white;
-    font-size: 35px;
+    font-size: 50px;
 }
 
 
@@ -847,8 +853,3 @@ body {
     margin-left: 0;
     margin-right: 0;
 }
-
-
-
-
-
