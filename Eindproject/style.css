@@ -789,7 +789,7 @@ body {
 
 .icon-bar {
     position: absolute;
-    top: 85%;
+    top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -818,4 +818,14 @@ body {
 .content {
     margin-left: 50px;
     font-size: 30px;
+}
+
+
+.h1 {
+    display: block;
+    font-size: 3em;
+    margin-top: 0.5em;
+    margin-bottom: 0.50em;
+    margin-left: 0;
+    margin-right: 0;
 }
