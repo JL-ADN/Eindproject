@@ -797,6 +797,8 @@ footer .footer-icons a {
 .map {
     position: absolute;
     top: 100pxpx;
+    height: 200px;
+    width: 1535px;
 }
 
 
@@ -827,18 +829,15 @@ tr:nth-child(even) {
 
 
 
-iframe{
+iframe {
     height: 500px;
     width: 600px;
-    display: flex;
-    align-items: center;
-}
-
-h3{
-    display: inline-block;
 }
 
 
+.contact-address {
+    text-align: left;
+}
 
 body {
     margin: 0;
@@ -909,7 +908,7 @@ body {
     outline: 0;
     padding: 8px;
     color: white;
-    background-color: #000;
+    background-color: black;
     text-align: center;
     cursor: pointer;
     width: 59%;
@@ -918,10 +917,10 @@ body {
 }
 
 .card button:hover {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 
-hr{
-    color: #000;
+hr {
+    color: black;
 }
