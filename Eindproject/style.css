@@ -796,7 +796,7 @@ footer .footer-icons a {
 
 .map {
     position: absolute;
-    top: 2350px;
+    top: 100pxpx;
 }
 
 
@@ -827,13 +827,22 @@ tr:nth-child(even) {
 
 
 
+iframe{
+    height: 500px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
 
+h3{
+    display: inline-block;
+}
 
 
 
 body {
     margin: 0;
-    height: 2000px;
+    height: 0px;
 }
 
 .icon-bar {
@@ -910,4 +919,9 @@ body {
 
 .card button:hover {
     opacity: 0.7;
+}
+
+
+hr{
+    color: #000;
 }
