@@ -898,14 +898,14 @@ body {
 .card button {
     border: none;
     outline: 0;
-    padding: 15px;
+    padding: 8px;
     color: white;
     background-color: #000;
     text-align: center;
     cursor: pointer;
-    width: 98%;
-    height: 99px;
-    font-size: 26px;
+    width: 59%;
+    height: 84px;
+    font-size: 21px;
 }
 
 .card button:hover {
