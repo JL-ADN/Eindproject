@@ -481,7 +481,7 @@ footer {
     text-align: left;
     font: bold 19px sans-serif;
     padding: 55px 50px;
-    bottom: -900px;
+    bottom: -200px;
 }
 
 
@@ -796,7 +796,7 @@ footer .footer-icons a {
 
 .map {
     position: absolute;
-    top: 2500px;
+    top: 2350px;
 }
 
 
