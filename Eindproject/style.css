@@ -36,7 +36,11 @@ nav {
     margin: 0 auto;
 }
 
-#cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu ul li a, #cssmenu #head-mobile {
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a,
+#cssmenu #head-mobile {
     border: 0;
     list-style: none;
     line-height: 1;
@@ -47,7 +51,8 @@ nav {
     box-sizing: border-box
 }
 
-#cssmenu:after, #cssmenu>ul:after {
+#cssmenu:after,
+#cssmenu>ul:after {
     content: ".";
     display: block;
     clear: both;
@@ -80,11 +85,15 @@ nav {
     font-weight: 700;
 }
 
-#cssmenu>ul>li:hover>a, #cssmenu ul li.active a {
+#cssmenu>ul>li:hover>a,
+#cssmenu ul li.active a {
     color: #fff
 }
 
-#cssmenu>ul>li:hover, #cssmenu ul li.active:hover, #cssmenu ul li.active, #cssmenu ul li.has-sub.active:hover {
+#cssmenu>ul>li:hover,
+#cssmenu ul li.active:hover,
+#cssmenu ul li.active,
+#cssmenu ul li.has-sub.active:hover {
     background: grey !important;
     -webkit-transition: background .3s ease;
     -ms-transition: background .3s ease;
@@ -161,11 +170,13 @@ nav {
     font-weight: 400;
 }
 
-#cssmenu ul ul li:last-child>a, #cssmenu ul ul li.last-item>a {
+#cssmenu ul ul li:last-child>a,
+#cssmenu ul ul li.last-item>a {
     border-bottom: 0
 }
 
-#cssmenu ul ul li:hover>a, #cssmenu ul ul li a:hover {
+#cssmenu ul ul li:hover>a,
+#cssmenu ul ul li a:hover {
     color: #fff
 }
 
@@ -199,7 +210,8 @@ nav {
     height: 0
 }
 
-#cssmenu ul ul li.has-sub:hover, #cssmenu ul li.has-sub ul li.has-sub ul li:hover {
+#cssmenu ul ul li.has-sub:hover,
+#cssmenu ul li.has-sub ul li.has-sub ul li:hover {
     background: #363636;
 }
 
@@ -207,7 +219,8 @@ nav {
     border-left: 1px solid #333
 }
 
-#cssmenu>ul>li.has-sub>ul>li.active>a, #cssmenu>ul ul>li.has-sub>ul>li.active>a {
+#cssmenu>ul>li.has-sub>ul>li.active>a,
+#cssmenu>ul ul>li.has-sub>ul>li.active>a {
     border-top: 1px solid #333
 }
 
@@ -249,11 +262,13 @@ nav {
         background: #363636;
     }
 
-    #cssmenu ul ul li, #cssmenu li:hover>ul>li {
+    #cssmenu ul ul li,
+    #cssmenu li:hover>ul>li {
         height: auto
     }
 
-    #cssmenu ul li a, #cssmenu ul ul li a {
+    #cssmenu ul li a,
+    #cssmenu ul ul li a {
         width: 100%;
         border-bottom: 0
     }
@@ -283,11 +298,13 @@ nav {
         background: none
     }
 
-    #cssmenu ul ul li:hover>a, #cssmenu ul ul li.active>a {
+    #cssmenu ul ul li:hover>a,
+    #cssmenu ul ul li.active>a {
         color: #fff
     }
 
-    #cssmenu ul ul, #cssmenu ul ul ul {
+    #cssmenu ul ul,
+    #cssmenu ul ul ul {
         position: relative;
         left: 0;
         width: 100%;
@@ -295,7 +312,10 @@ nav {
         text-align: left
     }
 
-    #cssmenu>ul>li.has-sub>a:after, #cssmenu>ul>li.has-sub>a:before, #cssmenu ul ul>li.has-sub>a:after, #cssmenu ul ul>li.has-sub>a:before {
+    #cssmenu>ul>li.has-sub>a:after,
+    #cssmenu>ul>li.has-sub>a:before,
+    #cssmenu ul ul>li.has-sub>a:after,
+    #cssmenu ul ul>li.has-sub>a:before {
         display: none
     }
 
@@ -435,7 +455,8 @@ nav {
         border-left: none
     }
 
-    #cssmenu>ul>li.has-sub>ul>li.active>a, #cssmenu>ul ul>li.has-sub>ul>li.active>a {
+    #cssmenu>ul>li.has-sub>ul>li.active>a,
+    #cssmenu>ul ul>li.has-sub>ul>li.active>a {
         border-top: none
     }
 }
@@ -648,7 +669,8 @@ footer .footer-icons a {
 }
 
 /* forward & Back buttons */
-.Back, .forward {
+.Back,
+.forward {
     cursor: pointer;
     position: absolute;
     top: 48%;
@@ -670,7 +692,8 @@ footer .footer-icons a {
 }
 
 /*when the user hovers,add a black background with some little opacity */
-.Back:hover, .forward:hover {
+.Back:hover,
+.forward:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -706,7 +729,8 @@ footer .footer-icons a {
     transition: background-color 0.5s ease;
 }
 
-.enable, .dots:hover {
+.enable,
+.dots:hover {
     background-color: #717161;
 }
 
@@ -791,7 +815,8 @@ table {
     margin: 1px;
 }
 
-th, td {
+th,
+td {
     text-align: left;
     padding: 8px;
 }
@@ -852,4 +877,37 @@ body {
     margin-bottom: 0.50em;
     margin-left: 0;
     margin-right: 0;
+}
+
+
+
+
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 278px;
+    height: 539px;
+    margin: inherit;
+    text-align: center;
+    font-family: arial;
+    padding: 28px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 15px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 98%;
+    height: 99px;
+    font-size: 26px;
+}
+
+.card button:hover {
+    opacity: 0.7;
 }
