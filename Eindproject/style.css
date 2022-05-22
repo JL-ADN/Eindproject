@@ -834,21 +834,18 @@ iframe {
     width: 600px;
 }
 
-.iframevideo{
+.iframevideo {
     flex-wrap: wrap;
 }
 
-.atelier-2 {
+br {
     float: right;
-    margin-top: -523px;
-    margin-right: -10px;
 }
 
-
-.atelier-3{
-    margin-top: 30px;
+.videoatelier {
+    width: 600px;
+    height: auto;
 }
-
 
 .contact-address {
     text-align: left;
