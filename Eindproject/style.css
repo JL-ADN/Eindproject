@@ -773,12 +773,12 @@ footer .footer-icons a {
     height: 460px;
     overflow: auto;
     margin-right: 13px;
-    
+
 }
 
 .foto-2 img {
     height: 460px;
-    
+
 }
 
 .foto-3 img {
@@ -788,7 +788,7 @@ footer .footer-icons a {
 
 
 
-h2{
+h2 {
     color: #0d0d0d;
 }
 
@@ -887,10 +887,12 @@ body {
     background: #bb0000;
     color: white;
 }
-.instagram{
-background: darkorange;
+
+.instagram {
+    background: darkorange;
 
 }
+
 .content {
     margin-left: 50px;
     font-size: 30px;
@@ -906,15 +908,9 @@ background: darkorange;
     margin-right: 0;
 }
 
-
-
-
-
-
-
-
-
-
+.logoo{
+    width: 200px;
+}
 
 /* Card setttings */
 :root {
@@ -1409,14 +1405,3 @@ p {
 ::active {
     border: none;
 }
-
-
-
-
-
-
-
-
-
-
-
