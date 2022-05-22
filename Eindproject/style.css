@@ -766,13 +766,14 @@ footer .footer-icons a {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    grid-row: var(--spacing-l);
+    margin-left: -35px;
 }
 
 .foto-1 img {
     height: 460px;
     overflow: auto;
-    margin-right: 15px;
+    margin-right: 13px;
+    
 }
 
 .foto-2 img {
@@ -782,7 +783,7 @@ footer .footer-icons a {
 
 .foto-3 img {
     height: 460px;
-    margin-left: 15px;
+    margin-left: 13px;
 }
 
 
