@@ -472,7 +472,6 @@ body {
 }
 
 footer {
-
     position: relative;
     box-sizing: border-box;
     background-color: #363636;
@@ -1368,4 +1367,39 @@ p {
     font-family: "Sarabun", sans-serif;
     margin-left: 225px;
     margin-top: 32px;
+}
+
+
+* {
+    font-size: 1.4rem;
+}
+
+.container {
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 230px;
+    background-color: #363636;
+    padding: 0.5rem;
+    border-radius: -1.7rem;
+    color: white;
+    box-shadow: 0.25rem 0.25rem 0.7rem #363636
+}
+
+.input1 {
+    margin: 0rem 0.5rem;
+    width: 100%;
+    border: none;
+    text-decoration: none;
+    background-color: white;
+    color: #363636;
+}
+
+::placeholder {
+    color: white;
+}
+
+::active {
+    border: none;
 }
