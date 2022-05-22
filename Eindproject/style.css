@@ -1120,7 +1120,7 @@ h2.active {
 input[type=button],
 input[type=submit],
 input[type=reset] {
-    background-color: black;
+    background-color: white;
     border: none;
     color: black;
     padding: 15px 80px;
