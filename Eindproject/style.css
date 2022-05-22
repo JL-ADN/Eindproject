@@ -1038,7 +1038,7 @@ body {
 /* BASIC */
 
 html {
-    background-color: grey;
+    background-color: white;
 }
 
 body {
@@ -1047,7 +1047,7 @@ body {
 }
 
 a {
-    color: grey;
+    color: black;
     display: inline-block;
     text-decoration: none;
     font-weight: 400;
@@ -1120,9 +1120,9 @@ h2.active {
 input[type=button],
 input[type=submit],
 input[type=reset] {
-    background-color: grey;
+    background-color: black;
     border: none;
-    color: white;
+    color: black;
     padding: 15px 80px;
     text-align: center;
     text-decoration: none;
@@ -1144,7 +1144,7 @@ input[type=reset] {
 input[type=button]:hover,
 input[type=submit]:hover,
 input[type=reset]:hover {
-    background-color: grey;
+    background-color: white;
 }
 
 input[type=button]:active,
@@ -1306,7 +1306,7 @@ input[type=text]:placeholder {
     bottom: -10px;
     width: 0;
     height: 2px;
-    background-color: grey;
+    background-color: white;
     content: "";
     transition: width 0.2s;
 }
