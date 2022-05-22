@@ -766,25 +766,25 @@ footer .footer-icons a {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-
+    grid-row: var(--spacing-l);
 }
 
 .foto-1 img {
     height: 460px;
     overflow: auto;
+    margin-right: 15px;
 }
 
 .foto-2 img {
     height: 460px;
+    
 }
 
 .foto-3 img {
     height: 460px;
+    margin-left: 15px;
 }
 
-.foto-4 img {
-    height: 460px;
-}
 
 
 
