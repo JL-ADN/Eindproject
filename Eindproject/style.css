@@ -1338,3 +1338,34 @@ input[type=text]:placeholder {
 * {
     box-sizing: border-box;
 }
+
+
+
+.inschrijven-a {
+    font-size: 18.5px;
+    font-family: "Sarabun", sans-serif;
+    margin-left: 232px;
+    margin-top: 47px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.inschrijven-secretariaat {
+    font-size: 18.5px;
+    font-family: "Sarabun", sans-serif;
+    margin-left: 229px;
+    margin-top: 28px;
+}
+
+.inschrijven-opgelet {
+    font-size: 18.5px;
+    font-family: "Sarabun", sans-serif;
+    margin-left: 225px;
+    margin-top: 32px;
+}
