@@ -834,16 +834,20 @@ iframe {
     width: 600px;
 }
 
-
+.iframevideo{
+    flex-wrap: wrap;
+}
 
 .atelier-2 {
     float: right;
     margin-top: -523px;
-    margin-right: -40px;
+    margin-right: -10px;
 }
 
 
-
+.atelier-3{
+    margin-top: 30px;
+}
 
 
 .contact-address {
@@ -857,7 +861,7 @@ body {
 
 .icon-bar {
     position: absolute;
-    top: 25%;
+    top: 58%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
