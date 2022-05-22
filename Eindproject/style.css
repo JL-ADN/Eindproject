@@ -1147,7 +1147,7 @@ input[type=reset] {
 input[type=button]:hover,
 input[type=submit]:hover,
 input[type=reset]:hover {
-    background-color: white;
+    background-color: black;
 }
 
 input[type=button]:active,
@@ -1161,7 +1161,7 @@ input[type=reset]:active {
 }
 
 input[type=text] {
-    background-color: #f6f6f6;
+    background-color: black;
     border: none;
     color: #0d0d0d;
     padding: 15px 32px;
@@ -1171,7 +1171,7 @@ input[type=text] {
     font-size: 16px;
     margin: 5px;
     width: 85%;
-    border: 2px solid #f6f6f6;
+    border: 2px solid black;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
