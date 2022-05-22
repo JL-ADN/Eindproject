@@ -887,7 +887,10 @@ body {
     background: #bb0000;
     color: white;
 }
+.instagram{
+background: darkorange;
 
+}
 .content {
     margin-left: 50px;
     font-size: 30px;
