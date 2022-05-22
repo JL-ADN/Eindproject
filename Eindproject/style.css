@@ -788,8 +788,9 @@ footer .footer-icons a {
 
 
 
-
-
+h2{
+    color: #0d0d0d;
+}
 
 
 
@@ -1064,7 +1065,8 @@ h2 {
     text-transform: uppercase;
     display: inline-block;
     margin: 40px 8px 10px 8px;
-    color: #cccccc;
+    color: black;
+    margin-bottom: 8px;
 }
 
 
@@ -1109,11 +1111,11 @@ h2 {
 /* TABS */
 
 h2.inactive {
-    color: #cccccc;
+    color: black;
 }
 
 h2.active {
-    color: #0d0d0d;
+    color: black;
     border-bottom: 2px solid grey;
 }
 
